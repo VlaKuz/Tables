@@ -194,11 +194,11 @@ ostream &operator<<(ostream &ostr, const Monom head)
 		ostr<<"";
 		else
 		{
-		ostr << "coef = " << head.coef << ", ";
-		ostr << "step = ";
-		if (!head.step) ostr << "NULL deg";
+		ostr << " " << head.coef << "";
+		ostr << "x^"<<head.step[0]<<"y^"<<head.step[1]<<"z^"<<head.step[2];
+		/*if (!head.step) ostr << "NULL deg";
 		for(int i = 0; i < 3; i++ )
-		ostr  << head.step[i];
+		ostr  << head.step[i];*/
 		ostr << " ";
 		}
 	return ostr;

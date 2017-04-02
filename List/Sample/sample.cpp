@@ -1,5 +1,6 @@
 #include "Polinom.h"
 #include "monom.h"
+#include "table.h"
 void main()
 {
 	Polinom polA, polB;

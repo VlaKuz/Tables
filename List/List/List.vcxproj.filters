@@ -3,5 +3,9 @@
   <ItemGroup>
     <ClInclude Include="monom.h" />
     <ClInclude Include="Polinom.h" />
+    <ClInclude Include="table.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tables_realisation.cpp" />
   </ItemGroup>
 </Project>
